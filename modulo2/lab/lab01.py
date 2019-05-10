@@ -2,4 +2,6 @@ from  lib.scrapy_dadosAbertos import DadosAbertos
 
 list_dep = DadosAbertos()
 
-print("Numero de deputados:",len(list_dep.deputados()))
+num = len(list_dep.deputados())
+
+print("Numero de deputados:", num)
